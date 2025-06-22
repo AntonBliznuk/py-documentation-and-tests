@@ -69,7 +69,7 @@ def image_upload_url(movie_id):
 def detail_url(movie_id):
     return reverse("cinema:movie-detail", args=[movie_id])
 
-
+# test_post_image_to_movie_list is not my job!!!
 class MovieImageUploadTests(TestCase):
     def setUp(self):
         self.client = APIClient()
